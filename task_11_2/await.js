@@ -2,7 +2,7 @@
 async function fetchCats() {
   //wrap the await commands inside a try catch incase there is an error
   try {
-    //after waiting for the fetch(await), drop the fetched data into catUrl
+    // After waiting for the fetch(await), drop the fetched data into catUrl
     const catUrl = await fetch(
       'http://thecatapi.com/api/images/get?format=src&type=gif'
     );
