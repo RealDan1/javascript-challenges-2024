@@ -1,2 +1,3 @@
 # javascript-excersizes
-javascsript excersizes from Odinproject and HyperionDev Bootcamp for the second half of 2024
+
+Javascript excersizes, HTML and CSS from the Odin Project and Hyperion Full stack Web development Bootcamp
