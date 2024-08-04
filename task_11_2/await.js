@@ -9,7 +9,7 @@ async function fetchCats() {
     //then log the url part of the catUrl
     console.log(catUrl.url);
   } catch (error) {
-    //catch if there is an error
+    // Catch if there is an error
     console.log(error); //log the error
   }
 }
