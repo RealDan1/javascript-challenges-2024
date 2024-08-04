@@ -6,7 +6,7 @@ async function fetchCats() {
     const catUrl = await fetch(
       'http://thecatapi.com/api/images/get?format=src&type=gif'
     );
-    //then log the url part of the catUrl
+    // Then log the url part of the catUrl
     console.log(catUrl.url);
   } catch (error) {
     // Catch if there is an error
