@@ -13,5 +13,5 @@ async function fetchCats() {
     console.log(error); //log the error
   }
 }
-//run the function
+// Run the function
 fetchCats();
