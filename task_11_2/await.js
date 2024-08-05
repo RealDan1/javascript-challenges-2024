@@ -1,6 +1,6 @@
-//create a new async function
+// Create a new async function
 async function fetchCats() {
-  //wrap the await commands inside a try catch incase there is an error
+  // Wrap the await commands inside a try catch incase there is an error
   try {
     // After waiting for the fetch(await), drop the fetched data into catUrl
     const catUrl = await fetch(
