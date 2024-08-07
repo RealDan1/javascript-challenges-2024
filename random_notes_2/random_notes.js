@@ -111,8 +111,9 @@ let myPromise = new Promise(function (resolve, reject) {
   let randNumber = Math.floor(Math.random() * 10);
   // Promise is resolved if the random number is greater than or equal to 5.
   // Else it will be rejected
+  let variable = 'variable';
   if (randNumber >= 5) {
-    resolve('Number was greater than or equal to 5 [RESOLVED]');
+    resolve(`Number was greater than or equal to 5 [RESOLVED]`);
   } else {
     reject(Error('The number was less than 5 [REJECTED]'));
   }
