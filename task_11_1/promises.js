@@ -1,7 +1,7 @@
-// output results
+// Output results
 let pokemon = [];
 fetch('https://pokeapi.co/api/v2/pokemon/pikachu/')
-  // convert JSON response to a object that we can use
+  // Convert JSON response to a object that we can use
   .then((res) => res.json())
   // Drop the returned object into result
   .then((result) => {
@@ -18,7 +18,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/pikachu/')
     // Log pokemon.abilities in a seperate console.log call because JS handles complex(nested) objects inside template literals differently - otherwise it just prints [object Object].
     console.log(pokemon.abilities);
   })
-  // catch the error at any point a promise is rejected and log it to the console
+  // Catch the error at any point a promise is rejected and log it to the console
   .catch((error) => {
     console.log(error);
   });
