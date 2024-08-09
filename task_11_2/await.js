@@ -10,7 +10,7 @@ async function fetchCats() {
     console.log(catUrl.url);
   } catch (error) {
     // Catch if there is an error
-    console.log(error); // Log the error
+    console.log(error); // log the error
   }
 }
 // Run the function
