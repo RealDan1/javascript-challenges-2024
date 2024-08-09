@@ -15,5 +15,3 @@ async function fetchCats() {
 }
 // Run the function
 fetchCats();
-//comment to test vscode commit
-//test again
