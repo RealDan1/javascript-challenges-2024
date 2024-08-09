@@ -22,5 +22,5 @@ let stopButton = document.getElementById('stop');
 startButton.addEventListener('click', startCounter);
 
 // The event listener below is missing a callback function argument;
-// this button should the counter from outputting to the console
+// this button should stop the counter from outputting to the console
 stopButton.addEventListener('click', stopCounter);
